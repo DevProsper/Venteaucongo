@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:carousel_slider/carousel_slider.dart'; // ignore: uri_does_not_exist
+
+import 'package:app1/components/horizontal_listview.dart';
 
 void main(){
   runApp(
@@ -17,9 +20,36 @@ class HomePage extends StatefulWidget{
 }
 
 class _HomePageState extends State<HomePage>{
+  int _current = 0;
 
   @override
   Widget build(BuildContext context) {
+
+    Widget image_caroussel = new Container(
+      height: 200.0,
+      width: MediaQuery.of(context).size.width,
+      child: new CarouselSlider(
+        items: [
+          AssetImage('images/01.JPG'),
+          AssetImage('images/01.JPG'),
+          AssetImage('images/01.JPG'),
+          AssetImage('images/01.JPG'),
+        ].map((i) {
+          return Builder(
+            builder: (BuildContext context) {
+              return Container(
+                  width: MediaQuery.of(context).size.width,
+                  margin: EdgeInsets.symmetric(horizontal: 5.0),
+                  decoration: BoxDecoration(
+                      color: Colors.amber
+                  ),
+                  child: Text('text $i', style: TextStyle(fontSize: 16.0),)
+              );
+            },
+          );
+        }).toList(),
+      )
+    );
 
     return Scaffold(
       appBar: new AppBar(
@@ -102,6 +132,30 @@ class _HomePageState extends State<HomePage>{
                 ),
               ],
           ),
+      ),
+
+      body: new ListView(
+        children: <Widget>[
+          //Images carousel
+          image_caroussel,
+
+          //Padding widget
+          new Padding(padding: const EdgeInsets.all(8.0),
+          child: new Text('Categries'),),
+
+          //Horizontal list view
+          HorizontaList(),
+
+          //Padding widget
+          new Padding(padding: const EdgeInsets.all(20.0),
+            child: new Text('Derniers produits'),),
+
+          // grid view
+          Container(
+            height: 320.0,
+            child: Products(),
+          )
+        ],
       ),
     );
   }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart'; // ignore: uri_does_not_exist
 
 import 'package:app1/components/horizontal_listview.dart';
+import 'package:app1/components/products.dart';
 
 void main(){
   runApp(
@@ -53,6 +54,7 @@ class _HomePageState extends State<HomePage>{
 
     return Scaffold(
       appBar: new AppBar(
+        elevation: 0.1,
           backgroundColor: Colors.red,
           title: Text("Venteaucongo"),
           actions: <Widget>[

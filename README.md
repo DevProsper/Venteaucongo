@@ -3,7 +3,7 @@
 Application mobile de vente en ligne, developpez avec le language Dart.
 
 
-## FONCTIONNALITES
+## FONCTIONNALITEES
 
 1 - Filtrer des produits par categories
 

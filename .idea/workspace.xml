@@ -11,51 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3397367f-c7e0-4742-9f3e-6720b2b87f84" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/back.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/c1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/cats/accessories.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/cats/dress.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/cats/formal.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/cats/informal.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/cats/jeans.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/cats/shoe.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/cats/tshirt.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/google.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/lg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/m1.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/m2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/products/blazer1.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/products/blazer2.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/products/dress1.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/products/dress2.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/products/hills1.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/products/hills2.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/products/pants2.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/products/skt1.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/products/skt2.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/w1.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/w3.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/w4.jpeg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/images/01.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/02.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/03.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/04.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/05.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/06.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/07.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/08.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/09.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/10.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/11.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/12.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/lib/components/horizontal_listview.dart" afterPath="$PROJECT_DIR$/lib/components/horizontal_listview.dart" />
       <change beforePath="$PROJECT_DIR$/lib/components/products.dart" afterPath="$PROJECT_DIR$/lib/components/products.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/generated/i18n.dart" afterPath="$PROJECT_DIR$/lib/generated/i18n.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" afterPath="$PROJECT_DIR$/lib/main.dart" />
       <change beforePath="$PROJECT_DIR$/lib/pages/product_details.dart" afterPath="$PROJECT_DIR$/lib/pages/product_details.dart" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" afterPath="$PROJECT_DIR$/pubspec.yaml" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -73,23 +32,11 @@
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
+            <state relative-caret-position="520">
               <caret line="78" column="39" lean-forward="false" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#602#1391#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/components/products.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1953">
-              <caret line="93" column="44" lean-forward="false" selection-start-line="93" selection-start-column="44" selection-end-line="93" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product_details.dart" pinned="false" current-in-tab="false">
+      <file leaf-file-name="product_details.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/pages/product_details.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="443">
+              <caret line="134" column="11" lean-forward="true" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -118,19 +65,31 @@
       <file leaf-file-name="horizontal_listview.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/components/horizontal_listview.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1722">
-              <caret line="82" column="23" lean-forward="false" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+            <state relative-caret-position="-1275">
+              <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pubspec.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pubspec.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+              <caret line="57" column="33" lean-forward="false" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/components/products.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-296">
+              <caret line="69" column="55" lean-forward="false" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,10 +116,10 @@
       <list>
         <option value="$PROJECT_DIR$/app1_android.iml" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
-        <option value="$PROJECT_DIR$/lib/pages/product_details.dart" />
-        <option value="$PROJECT_DIR$/lib/components/horizontal_listview.dart" />
-        <option value="$PROJECT_DIR$/lib/components/products.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/lib/components/products.dart" />
+        <option value="$PROJECT_DIR$/lib/components/horizontal_listview.dart" />
+        <option value="$PROJECT_DIR$/lib/pages/product_details.dart" />
       </list>
     </option>
   </component>
@@ -201,6 +160,18 @@
               <item name="app1" type="b2602c69:ProjectViewProjectNode" />
               <item name="app1" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app1" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app1" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -720,7 +691,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
+        <state relative-caret-position="520">
           <caret line="78" column="39" lean-forward="false" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -729,18 +700,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="57" column="33" lean-forward="false" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/components/horizontal_listview.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1722">
-          <caret line="82" column="23" lean-forward="false" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+        <state relative-caret-position="-1275">
+          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/components/products.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1953">
-          <caret line="93" column="44" lean-forward="false" selection-start-line="93" selection-start-column="44" selection-end-line="93" selection-end-column="44" />
+        <state relative-caret-position="-296">
+          <caret line="69" column="55" lean-forward="false" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -749,16 +728,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/product_details.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        <state relative-caret-position="443">
+          <caret line="134" column="11" lean-forward="true" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
           <folding />
         </state>
       </provider>

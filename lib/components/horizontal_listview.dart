@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// Ici nous avons la liste de nos categories
 class HorizontaList extends StatelessWidget{
   @override
   Widget build(BuildContext context) {

@@ -66,7 +66,11 @@ class Single_pro extends StatelessWidget{
           child: Material(
           child: InkWell(
             onTap: (){
-              Route route = MaterialPageRoute(builder: (context) => ProductDetails());
+              Route route = MaterialPageRoute(builder: (context) => ProductDetails(
+                //Ici on passe les données a la fenêtre detail
+                product_detail_name: prod_name, product_detail_new_price: prod_price,
+                product_detail_old_price: prod_old_price, product_detail_picture: prod_picture,
+              ));
               Navigator.push(context, route);
             },
           child: GridTile(

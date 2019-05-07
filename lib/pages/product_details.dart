@@ -27,7 +27,7 @@ class _ProductDetailsState extends State<ProductDetails>{
       appBar: new AppBar(
         elevation: 0.1,
         backgroundColor: Colors.red,
-        title: Text("Venteaucongo"),
+        title: Text("Shopping"),
         actions: <Widget>[
           new IconButton(icon: Icon(Icons.search,
             color: Colors.white,),
@@ -74,13 +74,29 @@ class _ProductDetailsState extends State<ProductDetails>{
           children: <Widget>[
             Expanded(
                 child: MaterialButton(
-                    onPressed: (){},
+                    onPressed: (){
+                      showDialog(context: context,
+                      builder: (context){
+                        return new AlertDialog(
+                          title: new Text("Taille"),
+                          content: new Text("Choisir la taille"),
+                          actions: <Widget>[
+                            new MaterialButton(onPressed: (){
+                              Navigator.of(context).pop(context);
+                            },
+                              child: new Text("close"),
+                            )
+                          ],
+                        );
+                      }
+                      );
+                    },
                 color: Colors.white,
                     textColor: Colors.grey,
                     elevation: 2.0,
                   child: Row(
                     children: <Widget>[
-                      Expanded(child: new Text("Size")),
+                      Expanded(child: new Text("Taille")),
                       Expanded(child: new Icon(Icons.arrow_drop_down))
                     ],
                   ),
@@ -88,7 +104,23 @@ class _ProductDetailsState extends State<ProductDetails>{
 
             Expanded(
                 child: MaterialButton(
-                  onPressed: (){},
+                  onPressed: (){
+                    showDialog(context: context,
+                        builder: (context){
+                          return new AlertDialog(
+                            title: new Text("Couleur"),
+                            content: new Text("Choisir la couleur"),
+                            actions: <Widget>[
+                              new MaterialButton(onPressed: (){
+                                Navigator.of(context).pop(context);
+                              },
+                                child: new Text("close"),
+                              )
+                            ],
+                          );
+                        }
+                    );
+                  },
                   color: Colors.white,
                   textColor: Colors.grey,
                   elevation: 2.0,
@@ -102,7 +134,23 @@ class _ProductDetailsState extends State<ProductDetails>{
 
             Expanded(
                 child: MaterialButton(
-                  onPressed: (){},
+                  onPressed: (){
+                    showDialog(context: context,
+                        builder: (context){
+                          return new AlertDialog(
+                            title: new Text("Taille"),
+                            content: new Text("Choisir la quantité"),
+                            actions: <Widget>[
+                              new MaterialButton(onPressed: (){
+                                Navigator.of(context).pop(context);
+                              },
+                                child: new Text("close"),
+                              )
+                            ],
+                          );
+                        }
+                    );
+                  },
                   color: Colors.white,
                   textColor: Colors.grey,
                   elevation: 2.0,
@@ -115,7 +163,6 @@ class _ProductDetailsState extends State<ProductDetails>{
                 )),
           ],
         ),
-
 
           //         ====== Second Bouton ======
           Row(
@@ -132,7 +179,54 @@ class _ProductDetailsState extends State<ProductDetails>{
 
               new IconButton(icon: Icon(Icons.favorite_border), color: Colors.red, onPressed: (){}),
             ],
-          )
+          ),
+          Divider(color: Colors.red),
+          new ListTile(
+            title: new Text("Detail du produit"),
+            subtitle: new Text("Le Lorem Ipsum est simplement du faux texte "
+                "employé dans la composition et la mise en page avant "
+                "impression. Le Lorem Ipsum est le faux texte standard "
+                "de l'imprimerie depuis les années 1500, quand un imprimeur "
+                "anonyme assembla ensemble "
+                "des morceaux de texte pour réaliser un livre spécimen de polices "
+                "de texte"),
+          ),
+
+          Divider(),
+
+          new Row(
+            children: <Widget>[
+              Padding(padding: const EdgeInsets.fromLTRB(12.0, 5.0, 5.0, 5.0),
+              child: new Text("Nom du produit", style: TextStyle(color: Colors.grey),
+              ),
+              ),
+              Padding(padding: EdgeInsets.all(5.0),
+              child: new Text(widget.product_detail_name),
+              )
+
+            ],
+          ),
+
+          new Row(
+            children: <Widget>[
+              Padding(padding: const EdgeInsets.fromLTRB(12.0, 5.0, 5.0, 5.0),
+                child: new Text("Marque de produit", style: TextStyle(color: Colors.grey),),),
+              Padding(padding: EdgeInsets.all(5.0),
+                child: new Text("Marque LG"),
+              )
+            ],
+          ),
+
+          new Row(
+            children: <Widget>[
+              Padding(padding: const EdgeInsets.fromLTRB(12.0, 5.0, 5.0, 5.0),
+                child: new Text("Etat du produit", style: TextStyle(color: Colors.grey),),),
+              Padding(padding: EdgeInsets.all(5.0),
+                child: new Text("Nouveau"),
+              )
+            ],
+          ),
+
         ],
       ),
     );

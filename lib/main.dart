@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage>{
                   onTap: (){},
                   child: ListTile(
                     title: Text('Accueil'),
-                    leading: Icon(Icons.home),
+                    leading: Icon(Icons.home, color: Colors.red,),
                   ),
                 ),
 
@@ -94,15 +94,15 @@ class _HomePageState extends State<HomePage>{
                   onTap: (){},
                   child: ListTile(
                     title: Text('Mes commandes'),
-                    leading: Icon(Icons.shopping_basket),
+                    leading: Icon(Icons.shopping_basket, color: Colors.red,),
                   ),
                 ),
 
                 InkWell(
                   onTap: (){},
                   child: ListTile(
-                    title: Text('Categories'),
-                    leading: Icon(Icons.dashboard),
+                    title: Text('Shopping cart'),
+                    leading: Icon(Icons.shopping_cart, color: Colors.red,),
                   ),
                 ),
 
@@ -110,7 +110,7 @@ class _HomePageState extends State<HomePage>{
                   onTap: (){},
                   child: ListTile(
                     title: Text('Mes favories'),
-                    leading: Icon(Icons.favorite),
+                    leading: Icon(Icons.favorite, color: Colors.red,),
                   ),
                 ),
 

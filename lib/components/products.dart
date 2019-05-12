@@ -14,14 +14,56 @@ class _ProductsState  extends State<Products>{
     {
       "name" : "Blazer",
       "picture" : "images/products/blazer2.jpeg",
-      "old_price" : 120,
-      "price" : 80,
+      "old_price" : 12.000,
+      "price" : 80.000,
     },
     {
       "name" : "Robe",
       "picture" : "images/products/dress1.jpeg",
-      "old_price" : 120,
-      "price" : 80,
+      "old_price" : 150.000,
+      "price" : 54.500,
+    },
+    {
+      "name" : "Blazer",
+      "picture" : "images/products/blazer1.jpeg",
+      "old_price" : 8.500,
+      "price" : 5000,
+    },
+    {
+      "name" : "Robe",
+      "picture" : "iimages/products/dress2.jpeg",
+      "old_price" : 18.000,
+      "price" : 14.500,
+    },
+    {
+      "name" : "Hills",
+      "picture" : "images/products/hills1.jpeg",
+      "old_price" : 225.000,
+      "price" : 41.500,
+    },
+    {
+      "name" : "Hills",
+      "picture" : "images/products/hills2.jpeg",
+      "old_price" : 85.000,
+      "price" : 70.000,
+    },
+    {
+      "name" : "Pantalon",
+      "picture" : "images/products/pants2.jpeg",
+      "old_price" : 18.500,
+      "price" : 15.000,
+    },
+    {
+      "name" : "Skit",
+      "picture" : "images/products/skt1.jpeg",
+      "old_price" : 12.500,
+      "price" : 8.700,
+    },
+    {
+      "name" : "Skit",
+      "picture" : "images/products/skt2.jpeg",
+      "old_price" : 40.000,
+      "price" : 38.000,
     },
   ];
 
@@ -62,7 +104,9 @@ class Single_pro extends StatelessWidget{
 
     return Card(
       child: Hero(
-          tag: prod_name,
+          //tag: prod_name, Constat fait, il ne prend pas plus d'image, pour acceder 
+        //au detail de l'image il faut que le tag soit un text
+          tag: new Text("Hero 1"),
           child: Material(
           child: InkWell(
             onTap: (){
@@ -76,23 +120,13 @@ class Single_pro extends StatelessWidget{
           child: GridTile(
             footer: Container(
               color: Colors.white70,
-                child: ListTile(
-                  leading: Text(
-                    prod_name, style: TextStyle(fontWeight: FontWeight.bold),
-                  ),
-                  title: Text(
-                    "\$$prod_price",
-                    style: TextStyle(
-                      color: Colors.red, fontWeight: FontWeight.w800),
-                  ),
-                  subtitle: Text(
-                    "\$$prod_old_price",
-                    style: TextStyle(
-                      color: Colors.black54,
-                      fontWeight: FontWeight.w800,
-                      decoration: TextDecoration.lineThrough
+                child: new Row(
+                  children: <Widget>[
+                    Expanded(
+                        child: Text(prod_name, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16.0),)
                     ),
-                  ),
+                    new Text("\$${prod_price}", style: TextStyle(color: Colors.red, fontWeight:  FontWeight.bold),)
+                  ],
                 )
             ),
             child: Image.asset(prod_picture,

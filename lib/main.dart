@@ -15,7 +15,6 @@ void main(){
 }
 
 class HomePage extends StatefulWidget{
-
   @override
   _HomePageState createState() => _HomePageState();
 
@@ -139,10 +138,12 @@ class _HomePageState extends State<HomePage>{
           ),
       ),
 
-      body: new ListView(
+
+      // body: new ListView( l'ancien, les images passaient en dessous du slide
+      body: new Column(
         children: <Widget>[
           //Images carousel
-          image_caroussel,
+          //image_caroussel,
 
           //Padding widget
           new Padding(padding: const EdgeInsets.all(8.0),
@@ -152,12 +153,13 @@ class _HomePageState extends State<HomePage>{
           HorizontaList(),
 
           //Padding widget
-          new Padding(padding: const EdgeInsets.all(20.0),
+          new Padding(padding: const EdgeInsets.all(2.0),
             child: new Text('Derniers produits'),),
 
           // grid view
-          Container(
-            height: 320.0,
+          // l'ancien Container
+          Flexible(
+            //height: 320.0, l'ancien
             child: Products(),
           )
         ],

@@ -3,6 +3,7 @@ import 'package:carousel_slider/carousel_slider.dart'; // ignore: uri_does_not_e
 
 import 'package:app1/components/horizontal_listview.dart';
 import 'package:app1/components/products.dart';
+import 'pages/cart.dart';
 
 void main(){
   runApp(
@@ -58,7 +59,9 @@ class _HomePageState extends State<HomePage>{
           title: Text("Venteaucongo"),
           actions: <Widget>[
             new IconButton(icon: Icon(Icons.search, color: Colors.white,), onPressed: (){}),
-            new IconButton(icon: Icon(Icons.shopping_cart, color: Colors.white,), onPressed: (){})
+            new IconButton(icon: Icon(Icons.shopping_cart, color: Colors.white,),
+                onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=> new Cart()
+                ));})
           ],
       ),
 
@@ -99,7 +102,8 @@ class _HomePageState extends State<HomePage>{
                 ),
 
                 InkWell(
-                  onTap: (){},
+                  onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context)=> new Cart()
+                  ));},
                   child: ListTile(
                     title: Text('Shopping cart'),
                     leading: Icon(Icons.shopping_cart, color: Colors.red,),

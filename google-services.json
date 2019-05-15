@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "902118285638",
+    "firebase_url": "https://venteaucongotest.firebaseio.com",
+    "project_id": "venteaucongotest",
+    "storage_bucket": "venteaucongotest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902118285638:android:5aac04ab428ba641",
+        "android_client_info": {
+          "package_name": "com.asnecit.app1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902118285638-8ir4t8026pscjkapae51gkhoqcp0djak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asnecit.app1",
+            "certificate_hash": "947ed79a62ed578ae9b965b31d0bc6eaaef4b128"
+          }
+        },
+        {
+          "client_id": "902118285638-kgm0n65d4dljorhi03o0hccfeneg2616.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYO3Abj49i-xhEhPirkqwLZrFmBj2phgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902118285638-kgm0n65d4dljorhi03o0hccfeneg2616.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
